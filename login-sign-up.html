@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Feedback Login Page</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:300,600" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel="stylesheet" href="./login-style.css">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+   <section class="#">
+      <nav>
+          <!-- <a href="index.html"class="logo">ICE</a> -->
+          <div class="nav-links" id="navLinks">
+              <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+              <ul>
+                  <li><a href="index.html">HOME</a></li>
+                  <li><a href="about.html">ABOUT</a></li>
+                  <li><a href="course.html">COURSES</a></li>
+                  <li><a href="blog.html">BLOG</a></li>
+                  <li><a href="login-sign-up.html">FEEDBACK</a></li>
+                  <li><a href="contect.html">CONTACT</a></li>
+              </ul>
+          </div>
+          <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1 style="color: bisque;">Login-To-Feedback-Next</h1>
+   </section>
+
+<!-- partial:index.partial.html -->
+<div class="container">
+   <section id="formHolder">
+
+      <div class="row">
+
+         <!-- Brand Box -->
+         <div class="col-sm-6 brand">
+            <a href="#"class="logo">ICE</a>
+
+            <div class="heading">
+               <h2>Welcome</h2>
+               <p>Your Right Choice</p>
+            </div>
+
+            <div class="success-msg">
+               <p>Great!</p>
+               <a href="feed.html" class="profile">Add Your Feedback</a>
+            </div>
+         </div>
+
+
+         <!-- Form Box -->
+         <div class="col-sm-6 form">
+
+            <!-- Login Form -->
+            <div class="login form-peice switched">
+               <form class="login-form" action="#" method="post">
+                  <div class="form-group">
+                     <label for="loginemail">Email Adderss</label>
+                     <input type="email" name="loginemail" id="loginemail" required>
+                  </div>
+
+                  <div class="form-group">
+                     <label for="loginPassword">Password</label>
+                     <input type="password" name="loginPassword" id="loginPassword" required>
+                  </div>
+
+                  <div class="CTA">
+                     <input type="submit" value="Login">
+                     <a href="#" class="switch">I'm New</a>
+                  </div>
+               </form>
+            </div><!-- End Login Form -->
+
+
+            <!-- Signup Form -->
+            <div class="signup form-peice">
+               <form class="signup-form" action="#" method="post">
+
+                  <div class="form-group">
+                     <label for="name">Full Name</label>
+                     <input type="text" name="username" id="name" class="name">
+                     <span class="error"></span>
+                  </div>
+
+                  <div class="form-group">
+                     <label for="email">Email Adderss</label>
+                     <input type="email" name="emailAdress" id="email" class="email">
+                     <span class="error"></span>
+                  </div>
+
+                  <div class="form-group">
+                     <label for="phone">Phone Number - <small>Optional</small></label>
+                     <input type="text" name="phone" id="phone">
+                  </div>
+
+                  <div class="form-group">
+                     <label for="password">Password</label>
+                     <input type="password" name="password" id="password" class="pass">
+                     <span class="error"></span>
+                  </div>
+
+                  <div class="form-group">
+                     <label for="passwordCon">Confirm Password</label>
+                     <input type="password" name="passwordCon" id="passwordCon" class="passConfirm">
+                     <span class="error"></span>
+                  </div>
+
+                  <div class="CTA">
+                <input type="submit"  value="Signup Now" id="submit" >
+                     <a href="#" class="switch">I have an account</a>
+                  </div>
+               </form>
+            </div><!-- End Signup Form -->
+         </div>
+      </div>
+
+   </section>
+
+</div>
+
+<section class="footer">
+   <h3>About Us</h3>
+   <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere quod quis possimus fuga, reiciendis hic saepe commodi, non beatae natus<br> doloremque accusamus voluptatum vitae! Dolorem unde nobis quos porro dolore.</p>
+     <div class="icons">
+       <i class="fa-brands fa-facebook"></i>
+       <i class="fa-brands fa-instagram"></i>
+       <i class="fa-solid fa-phone"></i>
+       <i class="fa-brands fa-twitter"></i>
+       <i class="fa-brands fa-linkedin"></i>
+       <i class="fa-brands fa-youtube"></i>
+     </div>
+     <p class="cantact"><a href="https://www.instagram.com/abzziii_hexyy__/?hl=en">Made With <i class="fa-brands fa-instagram"></i> Abishek</a></p>
+</section>
+<!-- Js Link -->
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script><script src="script.js"></script>
+<script src="https://kit.fontawesome.com/011ac9558d.js" crossorigin="anonymous"></script>
+<script src="college.js"></script>
+
+</body>
+</html>
